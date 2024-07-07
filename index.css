@@ -1,0 +1,32 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.cart {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
